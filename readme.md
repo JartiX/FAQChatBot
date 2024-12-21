@@ -50,4 +50,4 @@ python main.py
 
 ![sample_5](demonstration/sample_5.png)
 
-https://github.com/JartiX/FAQChatBot/blob/main/demonstration/demonstration.mp4
+https://github.com/user-attachments/assets/dca3d6dd-bedd-431a-a841-b86e3c71a5a5
