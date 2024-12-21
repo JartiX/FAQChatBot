@@ -50,6 +50,4 @@ python main.py
 
 ![sample_5](demonstration/sample_5.png)
 
-<video width="640" height="480" controls>
-  <source src="demonstration/demonstration.mp4" type="video/mp4">
-</video>
+https://github.com/JartiX/FAQChatBot/blob/main/demonstration/demonstration.mp4
