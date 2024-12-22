@@ -4,11 +4,11 @@ import numpy as np
 from transformers import AutoTokenizer, TFAutoModel
 import json
 
-from ENV_VARS import MODEL_NAME, MODEL_PATH, DATA_PATH
+from ENV_VARS import MODEL_PATH, DATA_PATH, RUBERT_MODEL_PATH, RUBERT_TOKENIZER_PATH
 from preprocess_text import preprocess_text
 
-bert_tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-bert_model = TFAutoModel.from_pretrained(MODEL_NAME, from_pt=True)
+bert_tokenizer = AutoTokenizer.from_pretrained(RUBERT_TOKENIZER_PATH)
+bert_model = TFAutoModel.from_pretrained(RUBERT_MODEL_PATH)
 
 with open(DATA_PATH, "r", encoding="UTF-8") as f:
     data = json.load(f)
